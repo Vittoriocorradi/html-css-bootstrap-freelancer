@@ -1,13 +1,19 @@
 :root {
     --primary-color: #2c3e50;
     --secondary-color: #1abc9c;
+    --tertiary-color: #3a546d;
 }
 
 /* TYPO */
 
 header,
-section:nth-child(odd) {
+main section:nth-child(odd),
+footer {
     color: #fff;
+}
+
+footer #info {
+    background-color: var(--tertiary-color);
 }
 
 /* HEADER */
@@ -22,6 +28,6 @@ header .container .row {
 
 /* MAIN */
 
-section:nth-child(odd) {
+main section:nth-child(odd) {
     background-color: var(--secondary-color);
 }
