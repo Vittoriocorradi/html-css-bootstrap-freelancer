@@ -31,3 +31,13 @@ header .container .row {
 main section:nth-child(odd) {
     background-color: var(--secondary-color);
 }
+
+/* FOOTER */
+
+footer #info {
+    background-color: var(--tertiary-color);
+}
+
+footer #copyright {
+    background-color: var(--primary-color);
+}
