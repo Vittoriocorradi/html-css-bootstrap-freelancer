@@ -1,10 +1,12 @@
 :root {
     --primary-color: #2c3e50;
+    --secondary-color: #1abc9c;
 }
 
 /* TYPO */
 
-header {
+header,
+section:nth-child(odd) {
     color: #fff;
 }
 
@@ -21,5 +23,5 @@ header .container .row {
 /* MAIN */
 
 section:nth-child(odd) {
-    background-color: #1abc9c;
+    background-color: var(--secondary-color);
 }
