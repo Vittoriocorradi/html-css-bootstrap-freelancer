@@ -17,3 +17,9 @@ header {
 header .container .row {
     height: 5.625rem;
 }
+
+/* MAIN */
+
+section:nth-child(odd) {
+    background-color: #1abc9c;
+}
