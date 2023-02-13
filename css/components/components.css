@@ -42,3 +42,12 @@
     border-radius: .625rem;
     width: 100%;
 }
+
+/* Bottoni */
+
+.ms-btn {
+    display: inline-block;
+    padding: .9375rem;
+    border-radius: .625rem;
+    background-color: var(--secondary-color);
+}

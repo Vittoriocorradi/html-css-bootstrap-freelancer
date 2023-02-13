@@ -49,6 +49,13 @@ main #start-bootstrap img {
     --ms-line-color: #000;
 }
 
+/* About us */
+
+main #about-us .btn {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
 /* FOOTER */
 
 footer #info {
