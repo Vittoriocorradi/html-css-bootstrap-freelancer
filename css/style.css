@@ -36,8 +36,15 @@ main section:nth-child(odd) {
 
 footer #info {
     background-color: var(--tertiary-color);
+    padding-bottom: 3.75rem;
+}
+
+footer #info h3 {
+    margin-top: 3.4375rem;
 }
 
 footer #copyright {
     background-color: var(--primary-color);
+    height: 6.875rem;
+    line-height: 6.875rem;
 }
