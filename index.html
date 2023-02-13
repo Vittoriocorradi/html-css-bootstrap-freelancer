@@ -140,21 +140,39 @@
             <div class="container">
                 <div class="row">
                     <div class="col text-center">
-                        <h2>Contact Me</h2>
-                        <div>Linea con stellina</div>
+                        <h2 class="text-uppercase mt-5 mb-4">Contact Me</h2>
+                        <div class="ms-star mb-4">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
                     </div>
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-8 col-lg-10">
-                        <div>Name</div>
-                        <hr>
-                        <div>Email Address</div>
-                        <hr>
-                        <div>Phone Number</div>
-                        <hr>
-                        <div>Message</div>
-                        <hr>
-                        <div>Bottone Send</div>
+                        <form action="" method="get">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingname" placeholder="Name">
+                                <label for="floatingname">Name</label>
+                            </div>                              
+                            <hr>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Email Address</label>
+                            </div>                              
+                            <hr>
+                            <div class="form-floating mb-3">
+                                <input type="number" class="form-control" id="floatingnumber" placeholder="Phone Number">
+                                <label for="floatingnumber">Phone Number</label>
+                            </div>                              
+                            <hr>
+                            <div class="form-floating">
+                                <textarea class="form-control ms-text-area" placeholder="Leave a comment here" id="floatingTextarea" style="height:200px"></textarea>
+                                <label for="floatingTextarea">Message</label>
+                            </div>                       
+                            <hr>
+                            <div>
+                                <a href="#" class="btn mb-4 mb-lg-5">Send</a>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>

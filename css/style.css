@@ -21,6 +21,11 @@ footer #info {
 
 /* COMMON */
 
+#portfolio .ms-star,
+#contact-me .ms-star {
+    --ms-line-color: #000;
+}
+
 /* HEADER */
 
 header {
@@ -45,15 +50,20 @@ main #start-bootstrap img {
 
 /* Portfolio */
 
-#portfolio .ms-star {
-    --ms-line-color: #000;
-}
+
 
 /* About us */
 
 main #about-us .btn {
     color: #fff;
     border: 1px solid #fff;
+}
+
+/* Contact Me */
+
+main #contact-me .btn {
+    background-color: var(--secondary-color);
+    color: #fff;
 }
 
 /* FOOTER */
