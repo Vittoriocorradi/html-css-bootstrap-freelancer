@@ -4,6 +4,7 @@
     --primary-color: #2c3e50;
     --secondary-color: #1abc9c;
     --tertiary-color: #3a546d;
+    --ms-line-color: #fff;
 }
 
 /* TYPO */
@@ -42,7 +43,11 @@ main #start-bootstrap img {
     width: 14.0625rem;
 }
 
+/* Portfolio */
 
+#portfolio .ms-star {
+    --ms-line-color: #000;
+}
 
 /* FOOTER */
 

@@ -2,37 +2,43 @@
 
 /* Stella con linea */
 
-main #start-bootstrap .ms-star {
+.ms-star {
     position: relative;
     width: 50%;
     left: 50%;
     transform: translate(-50%, 0);
 }
 
-main #start-bootstrap i {
+.ms-star i {
     font-size: 28px;
-    color: #fff;
 }
 
-main #start-bootstrap .ms-star::before {
+.ms-star::before {
     content: '';
     display: block;
     width: 40%;
     height: .0625rem;
-    border: 0.5px solid #fff;
-    background-color: #fff;
+    border: 2px solid var(--ms-line-color);
+    background-color: var(--ms-line-color);
     position: absolute;
     top: 50%;
 }
 
-main #start-bootstrap .ms-star::after {
+.ms-star::after {
     content: '';
     display: block;
     width: 40%;
     height: .0625rem;
-    border: 1px solid #fff;
-    background-color: #fff;
+    border: 2px solid var(--ms-line-color);
+    background-color: var(--ms-line-color);
     position: absolute;
     top: 50%;
     right: 0;
+}
+
+/* Immagini */
+
+.ms-card img {
+    border-radius: .625rem;
+    width: 100%;
 }
