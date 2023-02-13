@@ -77,6 +77,22 @@ footer #info h3 {
     margin-top: 3.4375rem;
 }
 
+footer .ms-site-name {
+    color: var(--secondary-color);
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul .gplus {
+    padding: .625rem .625rem;
+}
+
+footer ul .twitter {
+    padding: .625rem .75rem;
+}
+
 footer #copyright {
     background-color: var(--primary-color);
     height: 6.875rem;
